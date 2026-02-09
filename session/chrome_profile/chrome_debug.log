@@ -1,0 +1,392 @@
+[24684:18348:0210/013719.274:INFO:components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc:206] No machine level policy manager exists.
+[7520:19568:0210/013719.444:INFO:third_party\webrtc\rtc_base\cpu_info.cc:75] Available number of cores: 12
+[10952:9472:0210/013719.451:INFO:third_party\webrtc\rtc_base\cpu_info.cc:75] Available number of cores: 12
+[24920:22772:0210/013719.715:VERBOSE1:components\viz\service\main\viz_main_impl.cc:86] VizNullHypothesis is disabled (not a warning)
+[24920:8596:0210/013720.156:WARNING:ui\gl\angle_platform_impl.cc:47] HLSLCompiler.cpp:254 (rx::HLSLCompiler::compileToBinary): 
+C:\fakepath(156,3-70): warning X3557: loop only executes for 1 iteration(s), forcing loop to unroll
+
+[1848:25780:0210/013720.295:INFO:third_party\webrtc\rtc_base\cpu_info.cc:75] Available number of cores: 12
+[24684:18348:0210/013720.873:INFO:CONSOLE:1] "Reflect is already polyfilled.", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/webapp-desktop.1dc77fcd.js (1)
+[24684:18348:0210/013721.038:INFO:CONSOLE:1] "AppContext will be overwritten", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/webapp-desktop.1dc77fcd.js (1)
+[24684:18348:0210/013721.038:INFO:CONSOLE:1] "AppContext will be overwritten", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/webapp-desktop.1dc77fcd.js (1)
+[24684:18348:0210/013721.039:INFO:CONSOLE:1] "AppContext will be overwritten", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/webapp-desktop.1dc77fcd.js (1)
+[24684:18348:0210/013721.039:INFO:CONSOLE:1] "AppContext will be overwritten", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/webapp-desktop.1dc77fcd.js (1)
+[24684:18348:0210/013721.040:INFO:CONSOLE:1] "AppContext will be overwritten", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/webapp-desktop.1dc77fcd.js (1)
+[24684:18348:0210/013721.041:INFO:CONSOLE:1] "AppContext will be overwritten", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/webapp-desktop.1dc77fcd.js (1)
+[24684:18348:0210/013721.041:INFO:CONSOLE:1] "AppContext will be overwritten", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/webapp-desktop.1dc77fcd.js (1)
+[24684:18348:0210/013721.041:INFO:CONSOLE:1] "AppContext will be overwritten", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/webapp-desktop.1dc77fcd.js (1)
+[24684:18348:0210/013721.130:INFO:CONSOLE:1] "AppContext will be overwritten", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/webapp-desktop.1dc77fcd.js (1)
+[24684:18348:0210/013721.136:INFO:CONSOLE:1] "AppContext will be overwritten", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/webapp-desktop.1dc77fcd.js (1)
+[24684:18348:0210/013721.136:INFO:CONSOLE:2] "loadable: `loadableReady()` requires state, please use `getScriptTags` or `getScriptElements` server-side", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/89953.04dee033.js (2)
+[24684:18348:0210/013721.763:INFO:CONSOLE:1] ".", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.328/webmssdk.js (1)
+[24684:18348:0210/013721.907:INFO:CONSOLE:1] "[useFYPRecommendListFirstPull] originParams [object Object] expParams [object Object] false", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/async/foryou.islands.46e7c751.js (1)
+[24684:18348:0210/013721.910:INFO:CONSOLE:1] "[getRecommendList] originParams [object Object] expParams [object Object] false", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/atom.init.67a83d26.js (1)
+[24684:18348:0210/013721.981:INFO:CONSOLE:1] "[00:01.562][warn][controller](1) [object DOMException]", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/async/68462.f7fda81c.js (1)
+[24684:18348:0210/013722.063:INFO:CONSOLE:1] "Error", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.328/webmssdk.js (1)
+[24684:18348:0210/013722.064:INFO:CONSOLE:1] "Error", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.328/webmssdk.js (1)
+[24684:18348:0210/013722.328:INFO:CONSOLE:1] "Unmuting failed and the element was paused instead because the user didn't interact with the document before. https://goo.gl/xX8pDD", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/async/68462.f7fda81c.js (1)
+[24684:18348:0210/013722.335:INFO:CONSOLE:2] "ws.opened", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/async/64887.a2a96a66.js (2)
+[24684:18348:0210/013722.336:INFO:CONSOLE:1] "[SDK] 1770658642335        0 already inited", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/slardar/fe/sdk-web/browser.sg.js?bid=tiktok_webapp&globalName=SlardarClient (1)
+[24684:18348:0210/013722.370:INFO:CONSOLE:1] "[00:01.951][warn][controller](1) [object DOMException]", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/async/68462.f7fda81c.js (1)
+[24684:18348:0210/013722.370:INFO:CONSOLE:1] "[00:01.951][warn][controller](1) [object DOMException]", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/async/68462.f7fda81c.js (1)
+[24684:18348:0210/013722.839:INFO:CONSOLE:22] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/async/16060.c5df2538.js (22)
+[24684:18348:0210/013722.844:INFO:CONSOLE:22] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/async/16060.c5df2538.js (22)
+[7520:20608:0210/013722.858:ERROR:media\base\status.h:501] DecoderStatus::0
+[7520:20608:0210/013722.862:ERROR:media\base\status.h:501] DecoderStatus::0
+[7520:20608:0210/013722.864:ERROR:media\base\status.h:501] DecoderStatus::0
+[7520:18092:0210/013722.869:INFO:third_party\blink\renderer\modules\peerconnection\peer_connection_dependency_factory.cc:911] Running WebRTC with a combined Network and Worker thread.
+[7520:18092:0210/013722.874:INFO:third_party\webrtc\media\engine\webrtc_voice_engine.cc:493] WebRtcVoiceEngine::WebRtcVoiceEngine
+[7520:18092:0210/013722.878:INFO:third_party\webrtc\media\base\codec.cc:393] Explicitly added H264 constrained baseline to list of supported formats.
+[7520:19040:0210/013722.881:INFO:third_party\webrtc\pc\peer_connection_factory.cc:381] Using default network controller factory
+[7520:19040:0210/013722.883:INFO:third_party\webrtc\modules\pacing\bitrate_prober.cc:54] Bandwidth probing enabled, set to inactive
+[7520:19040:0210/013722.884:INFO:third_party\webrtc\modules\remote_bitrate_estimator\transport_sequence_number_feedback_generator.cc:52] Maximum interval between transport feedback RTCP messages: 250 ms
+[7520:19040:0210/013722.885:INFO:third_party\webrtc\modules\remote_bitrate_estimator\aimd_rate_control.cc:88] Using aimd rate control with back off factor 0.85
+[7520:19040:0210/013722.885:INFO:third_party\webrtc\modules\remote_bitrate_estimator\remote_bitrate_estimator_single_stream.cc:59] RemoteBitrateEstimatorSingleStream: Instantiating.
+[7520:18092:0210/013722.886:INFO:third_party\webrtc\media\base\codec.cc:393] Explicitly added H264 constrained baseline to list of supported formats.
+[7520:19040:0210/013722.887:INFO:third_party\webrtc\media\engine\webrtc_voice_engine.cc:527] WebRtcVoiceEngine::Init
+[7520:19040:0210/013722.887:INFO:third_party\webrtc\media\engine\webrtc_voice_engine.cc:611] WebRtcVoiceEngine::ApplyOptions: AudioOptions {aec: 1, agc: 1, ns: 1, hf: 1, swap: 0, audio_jitter_buffer_max_packets: 200, audio_jitter_buffer_fast_accelerate: 0, audio_jitter_buffer_min_delay_ms: 0, }
+[7520:19040:0210/013722.890:INFO:third_party\webrtc\rtc_base\openssl_key_pair.cc:36] Making key pair
+[7520:19040:0210/013722.890:INFO:third_party\webrtc\rtc_base\openssl_key_pair.cc:89] Returning key pair
+[7520:19040:0210/013722.890:INFO:third_party\webrtc\rtc_base\boringssl_certificate.cc:186] Making certificate for WebRTC
+[7520:19040:0210/013722.891:INFO:third_party\webrtc\rtc_base\boringssl_certificate.cc:242] Returning certificate
+[7520:19040:0210/013722.988:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:559] Set backup connection ping interval to 25 s milliseconds.
+[7520:19040:0210/013722.988:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:568] Set ICE receiving timeout to 2500 ms milliseconds
+[7520:19040:0210/013722.988:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:575] Set ping most likely connection to 0
+[7520:19040:0210/013722.988:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:582] Set stable_writable_connection_ping_interval to 2500 ms
+[7520:19040:0210/013722.988:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:595] Set presume writable when fully relayed to 0
+[7520:19040:0210/013722.988:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:613] Set regather_on_failed_networks_interval to 300 s
+[7520:19040:0210/013722.988:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:623] Set receiving_switching_delay to 1 s
+[7520:19040:0210/013722.988:INFO:third_party\webrtc\pc\jsep_transport_controller.cc:653] Creating DtlsSrtpTransport.
+[7520:19040:0210/013722.988:INFO:third_party\webrtc\pc\dtls_srtp_transport.cc:52] Setting RTP Transport on 0 transport 0x555c00d65e80
+[7520:19040:0210/013722.988:INFO:third_party\webrtc\pc\srtp_transport.cc:273] The params in SRTP transport are reset.
+[7520:19040:0210/013722.990:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:493] Set ICE ufrag: cwMt pwd: t+3jKACnOtJf0P6XSZ/WAWKp on transport 0
+[7520:18092:0210/013722.990:INFO:third_party\webrtc\pc\peer_connection.cc:2224] Creating data channel, mid=0
+[7520:18092:0210/013722.990:INFO:third_party\webrtc\pc\sdp_offer_answer.cc:3112] Session: 1515272596894233952 Old state: stable New state: have-local-offer
+[7520:19040:0210/013722.990:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:370] Start getting ports with turn_port_prune_policy 0
+[24684:18348:0210/013723.098:INFO:CONSOLE:22] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/async/16060.c5df2538.js (22)
+[24684:18348:0210/013723.100:INFO:CONSOLE:1] "[TikTok desktop app SDK Monitor]:   WARN:[printFirstFeedShow]The current environment is not inside the client.", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/webapp-desktop.1dc77fcd.js (1)
+[24684:18348:0210/013723.102:INFO:CONSOLE:22] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/async/16060.c5df2538.js (22)
+[24684:18348:0210/013723.105:INFO:CONSOLE:22] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/async/16060.c5df2538.js (22)
+[7520:19040:0210/013723.115:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:803] Allocate ports on any any 
+[7520:19040:0210/013723.116:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:891] Network manager has started
+[7520:19040:0210/013723.116:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1400] Net[any:0.0.0.x/0:Wildcard:id=0]: Allocation Phase=Udp
+[7520:19040:0210/013723.116:INFO:third_party\webrtc\p2p\base\port.cc:130] Port[538e300:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Port created with network cost 999
+[7520:19040:0210/013723.116:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1487] AllocationSequence: UDPPort will be handling the STUN candidate generation.
+[7520:19040:0210/013723.116:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:913] Adding allocated port for 0
+[7520:19040:0210/013723.116:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:933] Port[538e300:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Added port to allocator
+[7520:19040:0210/013723.116:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1400] Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]: Allocation Phase=Udp
+[7520:19040:0210/013723.116:INFO:third_party\webrtc\p2p\base\port.cc:130] Port[538df80:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Port created with network cost 999
+[7520:19040:0210/013723.116:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1487] AllocationSequence: UDPPort will be handling the STUN candidate generation.
+[7520:19040:0210/013723.116:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:913] Adding allocated port for 0
+[7520:19040:0210/013723.116:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:933] Port[538df80:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Added port to allocator
+[24684:18348:0210/013723.143:INFO:CONSOLE:1] "Error", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.328/webmssdk.js (1)
+[7520:19040:0210/013723.167:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1400] Net[any:0.0.0.x/0:Wildcard:id=0]: Allocation Phase=Relay
+[7520:19040:0210/013723.167:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1400] Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]: Allocation Phase=Relay
+[7520:19040:0210/013723.194:INFO:third_party\webrtc\pc\peer_connection_factory.cc:381] Using default network controller factory
+[7520:19040:0210/013723.194:INFO:third_party\webrtc\modules\pacing\bitrate_prober.cc:54] Bandwidth probing enabled, set to inactive
+[7520:19040:0210/013723.194:INFO:third_party\webrtc\modules\remote_bitrate_estimator\transport_sequence_number_feedback_generator.cc:52] Maximum interval between transport feedback RTCP messages: 250 ms
+[7520:19040:0210/013723.194:INFO:third_party\webrtc\modules\remote_bitrate_estimator\aimd_rate_control.cc:88] Using aimd rate control with back off factor 0.85
+[7520:19040:0210/013723.194:INFO:third_party\webrtc\modules\remote_bitrate_estimator\remote_bitrate_estimator_single_stream.cc:59] RemoteBitrateEstimatorSingleStream: Instantiating.
+[7520:18092:0210/013723.195:INFO:third_party\webrtc\media\base\codec.cc:393] Explicitly added H264 constrained baseline to list of supported formats.
+[7520:19040:0210/013723.196:INFO:third_party\webrtc\rtc_base\openssl_key_pair.cc:36] Making key pair
+[7520:19040:0210/013723.196:INFO:third_party\webrtc\rtc_base\openssl_key_pair.cc:89] Returning key pair
+[7520:19040:0210/013723.196:INFO:third_party\webrtc\rtc_base\boringssl_certificate.cc:186] Making certificate for WebRTC
+[7520:19040:0210/013723.196:INFO:third_party\webrtc\rtc_base\boringssl_certificate.cc:242] Returning certificate
+[7520:19040:0210/013723.229:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1400] Net[any:0.0.0.x/0:Wildcard:id=0]: Allocation Phase=Tcp
+[7520:19040:0210/013723.229:INFO:third_party\webrtc\p2p\base\port.cc:130] Port[bf4a00:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Port created with network cost 999
+[7520:19040:0210/013723.229:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:913] Adding allocated port for 0
+[7520:19040:0210/013723.229:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:933] Port[bf4a00:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Added port to allocator
+[7520:19040:0210/013723.229:INFO:third_party\webrtc\p2p\base\tcp_port.cc:183] Port[bf4a00:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Not listening due to firewall restrictions.
+[7520:19040:0210/013723.229:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1400] Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]: Allocation Phase=Tcp
+[7520:19040:0210/013723.230:INFO:third_party\webrtc\p2p\base\port.cc:130] Port[bee100:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Port created with network cost 999
+[7520:19040:0210/013723.230:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:913] Adding allocated port for 0
+[7520:19040:0210/013723.230:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:933] Port[bee100:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Added port to allocator
+[7520:19040:0210/013723.230:INFO:third_party\webrtc\p2p\base\tcp_port.cc:183] Port[bee100:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Not listening due to firewall restrictions.
+[7520:19040:0210/013723.244:INFO:third_party\webrtc\p2p\base\stun_port.cc:459] Port[538e300:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Starting STUN host lookup for stun.l.google.com:19302
+[7520:19040:0210/013723.244:INFO:third_party\webrtc\p2p\base\stun_port.cc:459] Port[538df80:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Starting STUN host lookup for stun.l.google.com:19302
+[7520:19040:0210/013723.366:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:559] Set backup connection ping interval to 25 s milliseconds.
+[7520:19040:0210/013723.367:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:568] Set ICE receiving timeout to 2500 ms milliseconds
+[7520:19040:0210/013723.367:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:575] Set ping most likely connection to 0
+[7520:19040:0210/013723.367:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:582] Set stable_writable_connection_ping_interval to 2500 ms
+[7520:19040:0210/013723.367:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:595] Set presume writable when fully relayed to 0
+[7520:19040:0210/013723.367:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:613] Set regather_on_failed_networks_interval to 300 s
+[7520:19040:0210/013723.367:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:623] Set receiving_switching_delay to 1 s
+[7520:19040:0210/013723.367:INFO:third_party\webrtc\pc\jsep_transport_controller.cc:653] Creating DtlsSrtpTransport.
+[7520:19040:0210/013723.367:INFO:third_party\webrtc\pc\dtls_srtp_transport.cc:52] Setting RTP Transport on 0 transport 0x555c052ccd00
+[7520:19040:0210/013723.367:INFO:third_party\webrtc\pc\srtp_transport.cc:273] The params in SRTP transport are reset.
+[7520:19040:0210/013723.367:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:493] Set ICE ufrag: Y+/z pwd: CgXj3lfdTFR7tHa5Caotrba0 on transport 0
+[7520:18092:0210/013723.367:INFO:third_party\webrtc\pc\peer_connection.cc:2224] Creating data channel, mid=0
+[7520:18092:0210/013723.367:INFO:third_party\webrtc\pc\sdp_offer_answer.cc:3112] Session: 2501315820527189044 Old state: stable New state: have-local-offer
+[7520:19040:0210/013723.367:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:370] Start getting ports with turn_port_prune_policy 0
+[7520:19040:0210/013724.034:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:950] Port[bf4a00:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Gathered candidate: Cand[:1414415147:1:tcp:1509957375:b7652691-5dd8-4887-8018-18e4f1ad9495.local:9:host::0:cwMt:t+3jKACnOtJf0P6XSZ/WAWKp:0:999:0]
+[7520:19040:0210/013724.034:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:983] Port[bf4a00:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Port ready.
+[7520:19040:0210/013724.035:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:994] Discarding candidate because it doesn't match filter.
+[7520:19040:0210/013724.035:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1095] Port[bf4a00:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Port completed gathering candidates.
+[7520:19040:0210/013724.105:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:950] Port[538e300:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Gathered candidate: Cand[:2660680187:1:udp:1677729535:124.217.63.x:14432:srflx:10.83.204.x:50670:cwMt:t+3jKACnOtJf0P6XSZ/WAWKp:0:999:0]
+[7520:19040:0210/013724.105:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:983] Port[538e300:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Port ready.
+[7520:19040:0210/013724.215:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:803] Allocate ports on any any 
+[7520:19040:0210/013724.215:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:891] Network manager has started
+[7520:19040:0210/013724.216:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1400] Net[any:0.0.0.x/0:Wildcard:id=0]: Allocation Phase=Udp
+[7520:19040:0210/013724.216:INFO:third_party\webrtc\p2p\base\port.cc:130] Port[52b8700:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Port created with network cost 999
+[7520:19040:0210/013724.216:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1487] AllocationSequence: UDPPort will be handling the STUN candidate generation.
+[7520:19040:0210/013724.216:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:913] Adding allocated port for 0
+[7520:19040:0210/013724.216:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:933] Port[52b8700:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Added port to allocator
+[7520:19040:0210/013724.216:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1400] Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]: Allocation Phase=Udp
+[7520:19040:0210/013724.216:INFO:third_party\webrtc\p2p\base\port.cc:130] Port[50c3100:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Port created with network cost 999
+[7520:19040:0210/013724.216:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1487] AllocationSequence: UDPPort will be handling the STUN candidate generation.
+[7520:19040:0210/013724.216:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:913] Adding allocated port for 0
+[7520:19040:0210/013724.216:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:933] Port[50c3100:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Added port to allocator
+[7520:19040:0210/013724.277:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1400] Net[any:0.0.0.x/0:Wildcard:id=0]: Allocation Phase=Relay
+[7520:19040:0210/013724.277:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1400] Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]: Allocation Phase=Relay
+[7520:19040:0210/013724.339:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1400] Net[any:0.0.0.x/0:Wildcard:id=0]: Allocation Phase=Tcp
+[7520:19040:0210/013724.339:INFO:third_party\webrtc\p2p\base\port.cc:130] Port[1915f00:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Port created with network cost 999
+[7520:19040:0210/013724.339:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:913] Adding allocated port for 0
+[7520:19040:0210/013724.339:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:933] Port[1915f00:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Added port to allocator
+[7520:19040:0210/013724.339:INFO:third_party\webrtc\p2p\base\tcp_port.cc:183] Port[1915f00:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Not listening due to firewall restrictions.
+[7520:19040:0210/013724.339:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1400] Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]: Allocation Phase=Tcp
+[7520:19040:0210/013724.340:INFO:third_party\webrtc\p2p\base\port.cc:130] Port[85600:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Port created with network cost 999
+[7520:19040:0210/013724.340:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:913] Adding allocated port for 0
+[7520:19040:0210/013724.340:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:933] Port[85600:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Added port to allocator
+[7520:19040:0210/013724.340:INFO:third_party\webrtc\p2p\base\tcp_port.cc:183] Port[85600:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Not listening due to firewall restrictions.
+[7520:19040:0210/013724.552:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:950] Port[bee100:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Gathered candidate: Cand[:1365354448:1:tcp:1509949951:bb0942cb-538e-4325-9c38-deee42afff5f.local:9:host::0:cwMt:t+3jKACnOtJf0P6XSZ/WAWKp:0:999:0]
+[7520:19040:0210/013724.552:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:983] Port[bee100:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Port ready.
+[7520:19040:0210/013724.552:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:994] Discarding candidate because it doesn't match filter.
+[7520:19040:0210/013724.552:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1095] Port[bee100:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Port completed gathering candidates.
+[7520:19040:0210/013724.552:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:950] Port[538e300:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Gathered candidate: Cand[:798697393:1:udp:2113937151:2e7872c5-5893-4df2-a176-fbf7acc651f6.local:50670:host::0:cwMt:t+3jKACnOtJf0P6XSZ/WAWKp:0:999:0]
+[7520:19040:0210/013724.552:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1095] Port[538e300:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Port completed gathering candidates.
+[7520:19040:0210/013724.552:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:950] Port[538df80:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Gathered candidate: Cand[:2455077097:1:udp:2113939711:0df88cb4-1595-4a5a-aebc-3d73166ea0ba.local:50671:host::0:cwMt:t+3jKACnOtJf0P6XSZ/WAWKp:0:999:0]
+[7520:19040:0210/013724.552:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:983] Port[538df80:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Port ready.
+[24684:18348:0210/013724.603:INFO:CONSOLE:0] "Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner.", source: https://www.tiktok.com/ (0)
+[7520:19040:0210/013724.605:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:950] Port[538df80:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Gathered candidate: Cand[:3125833889:1:udp:1677732095:[2001:4453:7a8:x:x:x:x:x]:50671:srflx:[2001:4453:7a8:x:x:x:x:x]:50671:cwMt:t+3jKACnOtJf0P6XSZ/WAWKp:0:999:0]
+[7520:19040:0210/013724.605:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1095] Port[538df80:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Port completed gathering candidates.
+[7520:19040:0210/013724.605:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1169] All candidates gathered for 0:1:0
+[7520:19040:0210/013724.605:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:975] P2PTransportChannel: 0, component 1 gathering complete
+[7520:19040:0210/013724.681:INFO:third_party\webrtc\p2p\base\stun_port.cc:459] Port[52b8700:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Starting STUN host lookup for stun.l.google.com:19302
+[7520:19040:0210/013724.681:INFO:third_party\webrtc\p2p\base\stun_port.cc:459] Port[50c3100:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Starting STUN host lookup for stun.l.google.com:19302
+[7520:19040:0210/013724.682:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:950] Port[1915f00:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Gathered candidate: Cand[:3688213872:1:tcp:1509957375:b7652691-5dd8-4887-8018-18e4f1ad9495.local:9:host::0:Y+/z:CgXj3lfdTFR7tHa5Caotrba0:0:999:0]
+[7520:19040:0210/013724.682:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:983] Port[1915f00:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Port ready.
+[7520:19040:0210/013724.682:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:994] Discarding candidate because it doesn't match filter.
+[7520:19040:0210/013724.682:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1095] Port[1915f00:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Port completed gathering candidates.
+[7520:18092:0210/013724.852:INFO:third_party\webrtc\pc\sdp_offer_answer.cc:3112] Session: 1515272596894233952 Old state: have-local-offer New state: closed
+[7520:19040:0210/013724.852:INFO:third_party\webrtc\pc\peer_connection.cc:2682] Tearing down data channel transport for mid=0
+[7520:19040:0210/013724.853:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:950] Port[85600:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Gathered candidate: Cand[:121761100:1:tcp:1509949951:bb0942cb-538e-4325-9c38-deee42afff5f.local:9:host::0:Y+/z:CgXj3lfdTFR7tHa5Caotrba0:0:999:0]
+[7520:19040:0210/013724.853:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:983] Port[85600:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Port ready.
+[7520:19040:0210/013724.853:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:994] Discarding candidate because it doesn't match filter.
+[7520:19040:0210/013724.853:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1095] Port[85600:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Port completed gathering candidates.
+[7520:19040:0210/013724.995:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:950] Port[52b8700:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Gathered candidate: Cand[:4283017065:1:udp:2113937151:2e7872c5-5893-4df2-a176-fbf7acc651f6.local:54632:host::0:Y+/z:CgXj3lfdTFR7tHa5Caotrba0:0:999:0]
+[7520:19040:0210/013724.995:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:983] Port[52b8700:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Port ready.
+[7520:19040:0210/013724.995:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:950] Port[50c3100:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Gathered candidate: Cand[:1981535470:1:udp:2113939711:0df88cb4-1595-4a5a-aebc-3d73166ea0ba.local:54633:host::0:Y+/z:CgXj3lfdTFR7tHa5Caotrba0:0:999:0]
+[7520:19040:0210/013724.995:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:983] Port[50c3100:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Port ready.
+[24684:18348:0210/013725.062:INFO:CONSOLE:1] "Error", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.2418/webmssdk_ex.js (1)
+[7520:19040:0210/013725.070:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:950] Port[52b8700:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Gathered candidate: Cand[:1184006956:1:udp:1677729535:124.217.63.x:14440:srflx:10.83.204.x:54632:Y+/z:CgXj3lfdTFR7tHa5Caotrba0:0:999:0]
+[7520:19040:0210/013725.070:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1095] Port[52b8700:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Port completed gathering candidates.
+[24684:18348:0210/013725.082:INFO:CONSOLE:1] "Error", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.328/webmssdk.js (1)
+[24684:18348:0210/013725.098:INFO:CONSOLE:1] "[object DOMException]", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/async/24342.082a6556.js (1)
+[7520:19040:0210/013725.102:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:950] Port[50c3100:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Gathered candidate: Cand[:1393161706:1:udp:1677732095:[2001:4453:7a8:x:x:x:x:x]:54633:srflx:[2001:4453:7a8:x:x:x:x:x]:54633:Y+/z:CgXj3lfdTFR7tHa5Caotrba0:0:999:0]
+[7520:19040:0210/013725.102:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1095] Port[50c3100:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Port completed gathering candidates.
+[7520:19040:0210/013725.102:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1169] All candidates gathered for 0:1:0
+[7520:19040:0210/013725.102:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:975] P2PTransportChannel: 0, component 1 gathering complete
+[7520:18092:0210/013725.129:INFO:third_party\webrtc\pc\sdp_offer_answer.cc:3112] Session: 2501315820527189044 Old state: have-local-offer New state: closed
+[7520:19040:0210/013725.129:INFO:third_party\webrtc\pc\peer_connection.cc:2682] Tearing down data channel transport for mid=0
+[24684:18348:0210/013725.220:INFO:CONSOLE:1] "Error", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.2418/webmssdk_ex.js (1)
+[24684:18348:0210/013725.619:INFO:CONSOLE:1] "Reflect is already polyfilled.", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/webapp-desktop.1dc77fcd.js (1)
+[24684:18348:0210/013725.644:INFO:CONSOLE:1] "AppContext will be overwritten", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/webapp-desktop.1dc77fcd.js (1)
+[24684:18348:0210/013725.644:INFO:CONSOLE:1] "AppContext will be overwritten", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/webapp-desktop.1dc77fcd.js (1)
+[24684:18348:0210/013725.644:INFO:CONSOLE:1] "AppContext will be overwritten", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/webapp-desktop.1dc77fcd.js (1)
+[24684:18348:0210/013725.644:INFO:CONSOLE:1] "AppContext will be overwritten", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/webapp-desktop.1dc77fcd.js (1)
+[24684:18348:0210/013725.645:INFO:CONSOLE:1] "AppContext will be overwritten", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/webapp-desktop.1dc77fcd.js (1)
+[24684:18348:0210/013725.645:INFO:CONSOLE:1] "AppContext will be overwritten", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/webapp-desktop.1dc77fcd.js (1)
+[24684:18348:0210/013725.645:INFO:CONSOLE:1] "AppContext will be overwritten", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/webapp-desktop.1dc77fcd.js (1)
+[24684:18348:0210/013725.645:INFO:CONSOLE:1] "AppContext will be overwritten", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/webapp-desktop.1dc77fcd.js (1)
+[24684:18348:0210/013725.663:INFO:CONSOLE:1] "AppContext will be overwritten", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/webapp-desktop.1dc77fcd.js (1)
+[24684:18348:0210/013725.665:INFO:CONSOLE:1] "AppContext will be overwritten", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/webapp-desktop.1dc77fcd.js (1)
+[24684:18348:0210/013725.665:INFO:CONSOLE:2] "loadable: `loadableReady()` requires state, please use `getScriptTags` or `getScriptElements` server-side", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/89953.04dee033.js (2)
+[24684:18348:0210/013725.883:INFO:CONSOLE:1] ".", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.328/webmssdk.js (1)
+[24684:18348:0210/013725.964:INFO:CONSOLE:1] "[useFYPRecommendListFirstPull] originParams [object Object] expParams [object Object] false", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/async/foryou.islands.46e7c751.js (1)
+[24684:18348:0210/013725.965:INFO:CONSOLE:1] "[getRecommendList] originParams [object Object] expParams [object Object] false", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/atom.init.67a83d26.js (1)
+[24684:18348:0210/013726.003:INFO:CONSOLE:1] "[00:00.676][warn][controller](1) [object DOMException]", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/async/68462.f7fda81c.js (1)
+[24684:18348:0210/013726.012:INFO:CONSOLE:1] "Error", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.328/webmssdk.js (1)
+[24684:18348:0210/013726.012:INFO:CONSOLE:1] "Error", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.328/webmssdk.js (1)
+[24684:18348:0210/013726.087:INFO:CONSOLE:2] "ws.opened", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/async/64887.a2a96a66.js (2)
+[24684:18348:0210/013726.088:INFO:CONSOLE:1] "[SDK] 1770658646089        0 already inited", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/slardar/fe/sdk-web/browser.sg.js?bid=tiktok_webapp&globalName=SlardarClient (1)
+[24684:18348:0210/013726.128:INFO:CONSOLE:1] "Unmuting failed and the element was paused instead because the user didn't interact with the document before. https://goo.gl/xX8pDD", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/async/68462.f7fda81c.js (1)
+[7520:20608:0210/013726.134:ERROR:media\base\status.h:501] DecoderStatus::0
+[24684:18348:0210/013726.297:INFO:CONSOLE:1] "[00:00.970][warn][controller](1) [object DOMException]", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/async/68462.f7fda81c.js (1)
+[24684:18348:0210/013726.297:INFO:CONSOLE:1] "[00:00.971][warn][controller](1) [object DOMException]", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/async/68462.f7fda81c.js (1)
+[7520:20608:0210/013726.314:ERROR:media\base\status.h:501] DecoderStatus::0
+[7520:20608:0210/013726.332:ERROR:media\base\status.h:501] DecoderStatus::0
+[24684:18348:0210/013727.268:INFO:CONSOLE:22] "The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/async/16060.c5df2538.js (22)
+[24684:18348:0210/013727.283:INFO:CONSOLE:1] "getRecommendList err [object Response]", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/react-v18/webapp-desktop/static/js/atom.init.67a83d26.js (1)
+[24684:18348:0210/013727.298:INFO:CONSOLE:0] "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.", source: https://www.tiktok.com/shop/ph/pdp/sanapo-mini-building-blocks-set-for-kids-creative-play-toy/1732470931607225390 (0)
+[7520:18092:0210/013727.346:INFO:third_party\webrtc\pc\peer_connection.cc:702] Session: 2501315820527189044 is destroyed.
+[7520:18092:0210/013727.347:INFO:third_party\webrtc\pc\peer_connection.cc:702] Session: 1515272596894233952 is destroyed.
+[7520:19040:0210/013727.347:INFO:third_party\webrtc\media\engine\webrtc_voice_engine.cc:565] WebRtcVoiceEngine::Terminate
+[7520:19040:0210/013727.347:WARNING:third_party\webrtc\media\engine\webrtc_voice_engine.cc:808] Attempting to stop aecdump when no audio processing module is present
+[24684:18348:0210/013727.696:INFO:CONSOLE:1] ".", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.162/webmssdk.js (1)
+[24684:18348:0210/013727.917:INFO:CONSOLE:3021] "oec capture init", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/oec-ttweb-captcha/loader/sg/1.0.0.41/captcha/index.js (3021)
+[24684:18348:0210/013727.967:INFO:CONSOLE:2] "detectResponseEndTime [object Object]", source: https://sf16-website.neutral.ttwstatic.com/obj/tiktok_web_static/i18n_ecom_fe/tiktok_shop_web_mono/apps/pdp_desktop/static/js/async/677.bb169422.js (2)
+[24684:18348:0210/013727.967:INFO:CONSOLE:2] "detectResponseEndTime [object Object]", source: https://sf16-website.neutral.ttwstatic.com/obj/tiktok_web_static/i18n_ecom_fe/tiktok_shop_web_mono/apps/pdp_desktop/static/js/async/677.bb169422.js (2)
+[24684:18348:0210/013727.979:INFO:CONSOLE:2] "fmp 986.1999999880791 [object HTMLImageElement]", source: https://sf16-website.neutral.ttwstatic.com/obj/tiktok_web_static/i18n_ecom_fe/tiktok_shop_web_mono/apps/pdp_desktop/static/js/async/677.bb169422.js (2)
+[24684:18348:0210/013727.980:INFO:CONSOLE:2] "fmp 986.1999999880791 [object HTMLImageElement]", source: https://sf16-website.neutral.ttwstatic.com/obj/tiktok_web_static/i18n_ecom_fe/tiktok_shop_web_mono/apps/pdp_desktop/static/js/async/677.bb169422.js (2)
+[24684:18348:0210/013728.066:INFO:CONSOLE:1] "%c %s color: yellow; background-color: black; [instance: default] appid: 1988, userInfo:{"user_unique_id":"7604920335368128008","device_id":"7604920335368128008","web_id":"7604920339450414610"}", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/log-sdk/collect/5.2/oversea/collect.js (1)
+[24684:18348:0210/013728.066:INFO:CONSOLE:1] "%c %s color: yellow; background-color: black; [instance: default] appid: 1988, sdk is ready, version is 5.3.12_oversea, you can report now !!!", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/log-sdk/collect/5.2/oversea/collect.js (1)
+[7520:18092:0210/013728.730:INFO:third_party\blink\renderer\modules\peerconnection\peer_connection_dependency_factory.cc:911] Running WebRTC with a combined Network and Worker thread.
+[7520:18092:0210/013728.730:INFO:third_party\webrtc\media\engine\webrtc_voice_engine.cc:493] WebRtcVoiceEngine::WebRtcVoiceEngine
+[7520:18092:0210/013728.731:INFO:third_party\webrtc\media\base\codec.cc:393] Explicitly added H264 constrained baseline to list of supported formats.
+[7520:19040:0210/013728.731:INFO:third_party\webrtc\pc\peer_connection_factory.cc:381] Using default network controller factory
+[7520:19040:0210/013728.731:INFO:third_party\webrtc\modules\pacing\bitrate_prober.cc:54] Bandwidth probing enabled, set to inactive
+[7520:19040:0210/013728.731:INFO:third_party\webrtc\modules\remote_bitrate_estimator\transport_sequence_number_feedback_generator.cc:52] Maximum interval between transport feedback RTCP messages: 250 ms
+[7520:19040:0210/013728.731:INFO:third_party\webrtc\modules\remote_bitrate_estimator\aimd_rate_control.cc:88] Using aimd rate control with back off factor 0.85
+[7520:19040:0210/013728.731:INFO:third_party\webrtc\modules\remote_bitrate_estimator\remote_bitrate_estimator_single_stream.cc:59] RemoteBitrateEstimatorSingleStream: Instantiating.
+[7520:18092:0210/013728.732:INFO:third_party\webrtc\media\base\codec.cc:393] Explicitly added H264 constrained baseline to list of supported formats.
+[7520:19040:0210/013728.732:INFO:third_party\webrtc\media\engine\webrtc_voice_engine.cc:527] WebRtcVoiceEngine::Init
+[7520:19040:0210/013728.732:INFO:third_party\webrtc\media\engine\webrtc_voice_engine.cc:611] WebRtcVoiceEngine::ApplyOptions: AudioOptions {aec: 1, agc: 1, ns: 1, hf: 1, swap: 0, audio_jitter_buffer_max_packets: 200, audio_jitter_buffer_fast_accelerate: 0, audio_jitter_buffer_min_delay_ms: 0, }
+[7520:19040:0210/013728.732:INFO:third_party\webrtc\rtc_base\openssl_key_pair.cc:36] Making key pair
+[7520:19040:0210/013728.733:INFO:third_party\webrtc\rtc_base\openssl_key_pair.cc:89] Returning key pair
+[7520:19040:0210/013728.733:INFO:third_party\webrtc\rtc_base\boringssl_certificate.cc:186] Making certificate for WebRTC
+[7520:19040:0210/013728.733:INFO:third_party\webrtc\rtc_base\boringssl_certificate.cc:242] Returning certificate
+[7520:19040:0210/013728.748:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:559] Set backup connection ping interval to 25 s milliseconds.
+[7520:19040:0210/013728.748:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:568] Set ICE receiving timeout to 2500 ms milliseconds
+[7520:19040:0210/013728.748:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:575] Set ping most likely connection to 0
+[7520:19040:0210/013728.748:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:582] Set stable_writable_connection_ping_interval to 2500 ms
+[7520:19040:0210/013728.748:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:595] Set presume writable when fully relayed to 0
+[7520:19040:0210/013728.748:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:613] Set regather_on_failed_networks_interval to 300 s
+[7520:19040:0210/013728.748:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:623] Set receiving_switching_delay to 1 s
+[7520:19040:0210/013728.748:INFO:third_party\webrtc\pc\jsep_transport_controller.cc:653] Creating DtlsSrtpTransport.
+[7520:19040:0210/013728.748:INFO:third_party\webrtc\pc\dtls_srtp_transport.cc:52] Setting RTP Transport on 0 transport 0x555c052e9880
+[7520:19040:0210/013728.748:INFO:third_party\webrtc\pc\srtp_transport.cc:273] The params in SRTP transport are reset.
+[7520:19040:0210/013728.748:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:493] Set ICE ufrag: tcbB pwd: ilpVpC9eFI0LVRAwYxQGUQon on transport 0
+[7520:18092:0210/013728.748:INFO:third_party\webrtc\pc\peer_connection.cc:2224] Creating data channel, mid=0
+[7520:18092:0210/013728.748:INFO:third_party\webrtc\pc\sdp_offer_answer.cc:3112] Session: 1761017327299155400 Old state: stable New state: have-local-offer
+[7520:19040:0210/013728.748:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:370] Start getting ports with turn_port_prune_policy 0
+[7520:19040:0210/013728.755:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:803] Allocate ports on any any 
+[7520:19040:0210/013728.755:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:891] Network manager has started
+[7520:19040:0210/013728.755:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1400] Net[any:0.0.0.x/0:Wildcard:id=0]: Allocation Phase=Udp
+[7520:19040:0210/013728.755:INFO:third_party\webrtc\p2p\base\port.cc:130] Port[50c3100:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Port created with network cost 999
+[7520:19040:0210/013728.755:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1487] AllocationSequence: UDPPort will be handling the STUN candidate generation.
+[7520:19040:0210/013728.755:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:913] Adding allocated port for 0
+[7520:19040:0210/013728.755:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:933] Port[50c3100:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Added port to allocator
+[7520:19040:0210/013728.755:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1400] Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]: Allocation Phase=Udp
+[7520:19040:0210/013728.755:INFO:third_party\webrtc\p2p\base\port.cc:130] Port[d65e80:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Port created with network cost 999
+[7520:19040:0210/013728.755:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1487] AllocationSequence: UDPPort will be handling the STUN candidate generation.
+[7520:19040:0210/013728.755:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:913] Adding allocated port for 0
+[7520:19040:0210/013728.755:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:933] Port[d65e80:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Added port to allocator
+[7520:19040:0210/013728.756:INFO:third_party\webrtc\p2p\base\stun_port.cc:459] Port[50c3100:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Starting STUN host lookup for stun.l.google.com:19302
+[7520:19040:0210/013728.756:INFO:third_party\webrtc\p2p\base\stun_port.cc:459] Port[d65e80:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Starting STUN host lookup for stun.l.google.com:19302
+[7520:19040:0210/013728.756:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:950] Port[50c3100:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Gathered candidate: Cand[:4121688778:1:udp:2113937151:07a84b2e-eeda-4c0c-b52c-574fbedc4a5a.local:58439:host::0:tcbB:ilpVpC9eFI0LVRAwYxQGUQon:0:999:0]
+[7520:19040:0210/013728.756:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:983] Port[50c3100:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Port ready.
+[7520:19040:0210/013728.756:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:950] Port[d65e80:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Gathered candidate: Cand[:2264841786:1:udp:2113939711:b2ac2d33-c24f-4480-8f49-1ab44249d27e.local:58440:host::0:tcbB:ilpVpC9eFI0LVRAwYxQGUQon:0:999:0]
+[7520:19040:0210/013728.756:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:983] Port[d65e80:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Port ready.
+[7520:19040:0210/013728.804:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:950] Port[d65e80:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Gathered candidate: Cand[:2176215042:1:udp:1677732095:[2001:4453:7a8:x:x:x:x:x]:58440:srflx:[2001:4453:7a8:x:x:x:x:x]:58440:tcbB:ilpVpC9eFI0LVRAwYxQGUQon:0:999:0]
+[7520:19040:0210/013728.804:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1095] Port[d65e80:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Port completed gathering candidates.
+[7520:19040:0210/013728.819:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1400] Net[any:0.0.0.x/0:Wildcard:id=0]: Allocation Phase=Relay
+[7520:19040:0210/013728.819:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1400] Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]: Allocation Phase=Relay
+[7520:19040:0210/013728.824:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:950] Port[50c3100:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Gathered candidate: Cand[:4087649521:1:udp:1677729535:124.217.63.x:14448:srflx:10.83.204.x:58439:tcbB:ilpVpC9eFI0LVRAwYxQGUQon:0:999:0]
+[7520:19040:0210/013728.824:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1095] Port[50c3100:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Port completed gathering candidates.
+[7520:19040:0210/013728.882:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1400] Net[any:0.0.0.x/0:Wildcard:id=0]: Allocation Phase=Tcp
+[7520:19040:0210/013728.882:INFO:third_party\webrtc\p2p\base\port.cc:130] Port[85600:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Port created with network cost 999
+[7520:19040:0210/013728.882:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:913] Adding allocated port for 0
+[7520:19040:0210/013728.882:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:933] Port[85600:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Added port to allocator
+[7520:19040:0210/013728.882:INFO:third_party\webrtc\p2p\base\tcp_port.cc:183] Port[85600:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Not listening due to firewall restrictions.
+[7520:19040:0210/013728.882:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1400] Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]: Allocation Phase=Tcp
+[7520:19040:0210/013728.882:INFO:third_party\webrtc\p2p\base\port.cc:130] Port[1915f00:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Port created with network cost 999
+[7520:19040:0210/013728.882:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:913] Adding allocated port for 0
+[7520:19040:0210/013728.882:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:933] Port[1915f00:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Added port to allocator
+[7520:19040:0210/013728.882:INFO:third_party\webrtc\p2p\base\tcp_port.cc:183] Port[1915f00:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Not listening due to firewall restrictions.
+[7520:19040:0210/013728.883:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:950] Port[85600:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Gathered candidate: Cand[:2447691264:1:tcp:1509957375:66f10296-3f74-4407-8722-ab35d5e79428.local:9:host::0:tcbB:ilpVpC9eFI0LVRAwYxQGUQon:0:999:0]
+[7520:19040:0210/013728.883:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:983] Port[85600:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Port ready.
+[7520:19040:0210/013728.883:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:994] Discarding candidate because it doesn't match filter.
+[7520:19040:0210/013728.883:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1095] Port[85600:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Port completed gathering candidates.
+[7520:19040:0210/013728.883:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:950] Port[1915f00:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Gathered candidate: Cand[:3193382599:1:tcp:1509949951:98735633-7acb-4a5b-b6f8-cdba85edd575.local:9:host::0:tcbB:ilpVpC9eFI0LVRAwYxQGUQon:0:999:0]
+[7520:19040:0210/013728.883:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:983] Port[1915f00:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Port ready.
+[7520:19040:0210/013728.883:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:994] Discarding candidate because it doesn't match filter.
+[7520:19040:0210/013728.883:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1095] Port[1915f00:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Port completed gathering candidates.
+[7520:19040:0210/013728.883:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1169] All candidates gathered for 0:1:0
+[7520:19040:0210/013728.883:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:975] P2PTransportChannel: 0, component 1 gathering complete
+[7520:18092:0210/013728.885:INFO:third_party\webrtc\pc\sdp_offer_answer.cc:3112] Session: 1761017327299155400 Old state: have-local-offer New state: closed
+[7520:19040:0210/013728.885:INFO:third_party\webrtc\pc\peer_connection.cc:2682] Tearing down data channel transport for mid=0
+[7520:19040:0210/013729.023:INFO:third_party\webrtc\pc\peer_connection_factory.cc:381] Using default network controller factory
+[7520:19040:0210/013729.023:INFO:third_party\webrtc\modules\pacing\bitrate_prober.cc:54] Bandwidth probing enabled, set to inactive
+[7520:19040:0210/013729.023:INFO:third_party\webrtc\modules\remote_bitrate_estimator\transport_sequence_number_feedback_generator.cc:52] Maximum interval between transport feedback RTCP messages: 250 ms
+[7520:19040:0210/013729.023:INFO:third_party\webrtc\modules\remote_bitrate_estimator\aimd_rate_control.cc:88] Using aimd rate control with back off factor 0.85
+[7520:19040:0210/013729.023:INFO:third_party\webrtc\modules\remote_bitrate_estimator\remote_bitrate_estimator_single_stream.cc:59] RemoteBitrateEstimatorSingleStream: Instantiating.
+[7520:18092:0210/013729.023:INFO:third_party\webrtc\media\base\codec.cc:393] Explicitly added H264 constrained baseline to list of supported formats.
+[7520:19040:0210/013729.024:INFO:third_party\webrtc\rtc_base\openssl_key_pair.cc:36] Making key pair
+[7520:19040:0210/013729.024:INFO:third_party\webrtc\rtc_base\openssl_key_pair.cc:89] Returning key pair
+[7520:19040:0210/013729.024:INFO:third_party\webrtc\rtc_base\boringssl_certificate.cc:186] Making certificate for WebRTC
+[7520:19040:0210/013729.024:INFO:third_party\webrtc\rtc_base\boringssl_certificate.cc:242] Returning certificate
+[7520:19040:0210/013729.030:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:559] Set backup connection ping interval to 25 s milliseconds.
+[7520:19040:0210/013729.030:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:568] Set ICE receiving timeout to 2500 ms milliseconds
+[7520:19040:0210/013729.030:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:575] Set ping most likely connection to 0
+[7520:19040:0210/013729.030:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:582] Set stable_writable_connection_ping_interval to 2500 ms
+[7520:19040:0210/013729.030:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:595] Set presume writable when fully relayed to 0
+[7520:19040:0210/013729.030:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:613] Set regather_on_failed_networks_interval to 300 s
+[7520:19040:0210/013729.030:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:623] Set receiving_switching_delay to 1 s
+[7520:19040:0210/013729.030:INFO:third_party\webrtc\pc\jsep_transport_controller.cc:653] Creating DtlsSrtpTransport.
+[7520:19040:0210/013729.030:INFO:third_party\webrtc\pc\dtls_srtp_transport.cc:52] Setting RTP Transport on 0 transport 0x555c052ccd00
+[7520:19040:0210/013729.030:INFO:third_party\webrtc\pc\srtp_transport.cc:273] The params in SRTP transport are reset.
+[7520:19040:0210/013729.030:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:493] Set ICE ufrag: BmIJ pwd: h34HttGtqyAlXnPaTZ8pzGTv on transport 0
+[7520:18092:0210/013729.030:INFO:third_party\webrtc\pc\peer_connection.cc:2224] Creating data channel, mid=0
+[7520:18092:0210/013729.030:INFO:third_party\webrtc\pc\sdp_offer_answer.cc:3112] Session: 2880473984217102258 Old state: stable New state: have-local-offer
+[7520:19040:0210/013729.031:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:370] Start getting ports with turn_port_prune_policy 0
+[7520:19040:0210/013729.033:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:803] Allocate ports on any any 
+[7520:19040:0210/013729.033:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:891] Network manager has started
+[7520:19040:0210/013729.033:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1400] Net[any:0.0.0.x/0:Wildcard:id=0]: Allocation Phase=Udp
+[7520:19040:0210/013729.033:INFO:third_party\webrtc\p2p\base\port.cc:130] Port[d65e80:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Port created with network cost 999
+[7520:19040:0210/013729.033:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1487] AllocationSequence: UDPPort will be handling the STUN candidate generation.
+[7520:19040:0210/013729.033:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:913] Adding allocated port for 0
+[7520:19040:0210/013729.033:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:933] Port[d65e80:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Added port to allocator
+[7520:19040:0210/013729.033:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1400] Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]: Allocation Phase=Udp
+[7520:19040:0210/013729.033:INFO:third_party\webrtc\p2p\base\port.cc:130] Port[52b8700:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Port created with network cost 999
+[7520:19040:0210/013729.033:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1487] AllocationSequence: UDPPort will be handling the STUN candidate generation.
+[7520:19040:0210/013729.033:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:913] Adding allocated port for 0
+[7520:19040:0210/013729.033:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:933] Port[52b8700:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Added port to allocator
+[7520:19040:0210/013729.034:INFO:third_party\webrtc\p2p\base\stun_port.cc:459] Port[d65e80:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Starting STUN host lookup for stun.l.google.com:19302
+[7520:19040:0210/013729.034:INFO:third_party\webrtc\p2p\base\stun_port.cc:459] Port[52b8700:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Starting STUN host lookup for stun.l.google.com:19302
+[7520:19040:0210/013729.034:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:950] Port[d65e80:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Gathered candidate: Cand[:1752460343:1:udp:2113937151:07a84b2e-eeda-4c0c-b52c-574fbedc4a5a.local:59861:host::0:BmIJ:h34HttGtqyAlXnPaTZ8pzGTv:0:999:0]
+[7520:19040:0210/013729.034:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:983] Port[d65e80:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Port ready.
+[7520:19040:0210/013729.034:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:950] Port[52b8700:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Gathered candidate: Cand[:3585788783:1:udp:2113939711:b2ac2d33-c24f-4480-8f49-1ab44249d27e.local:59862:host::0:BmIJ:h34HttGtqyAlXnPaTZ8pzGTv:0:999:0]
+[7520:19040:0210/013729.034:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:983] Port[52b8700:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Port ready.
+[24684:18348:0210/013729.063:INFO:CONSOLE:1] "Error", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.2418/webmssdk_ex.js (1)
+[7520:19040:0210/013729.097:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:950] Port[52b8700:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Gathered candidate: Cand[:4257168167:1:udp:1677732095:[2001:4453:7a8:x:x:x:x:x]:59862:srflx:[2001:4453:7a8:x:x:x:x:x]:59862:BmIJ:h34HttGtqyAlXnPaTZ8pzGTv:0:999:0]
+[7520:19040:0210/013729.097:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1095] Port[52b8700:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Port completed gathering candidates.
+[7520:19040:0210/013729.097:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1400] Net[any:0.0.0.x/0:Wildcard:id=0]: Allocation Phase=Relay
+[7520:19040:0210/013729.097:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1400] Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]: Allocation Phase=Relay
+[7520:19040:0210/013729.097:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:950] Port[d65e80:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Gathered candidate: Cand[:3648621181:1:udp:1677729535:124.217.63.x:14449:srflx:10.83.204.x:59861:BmIJ:h34HttGtqyAlXnPaTZ8pzGTv:0:999:0]
+[7520:19040:0210/013729.097:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1095] Port[d65e80:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Port completed gathering candidates.
+[7520:19040:0210/013729.162:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1400] Net[any:0.0.0.x/0:Wildcard:id=0]: Allocation Phase=Tcp
+[7520:19040:0210/013729.162:INFO:third_party\webrtc\p2p\base\port.cc:130] Port[1915f00:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Port created with network cost 999
+[7520:19040:0210/013729.162:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:913] Adding allocated port for 0
+[7520:19040:0210/013729.162:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:933] Port[1915f00:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Added port to allocator
+[7520:19040:0210/013729.162:INFO:third_party\webrtc\p2p\base\tcp_port.cc:183] Port[1915f00:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Not listening due to firewall restrictions.
+[7520:19040:0210/013729.162:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1400] Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]: Allocation Phase=Tcp
+[7520:19040:0210/013729.162:INFO:third_party\webrtc\p2p\base\port.cc:130] Port[85600:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Port created with network cost 999
+[7520:19040:0210/013729.162:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:913] Adding allocated port for 0
+[7520:19040:0210/013729.162:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:933] Port[85600:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Added port to allocator
+[7520:19040:0210/013729.162:INFO:third_party\webrtc\p2p\base\tcp_port.cc:183] Port[85600:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Not listening due to firewall restrictions.
+[7520:19040:0210/013729.162:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:950] Port[1915f00:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Gathered candidate: Cand[:329320621:1:tcp:1509957375:66f10296-3f74-4407-8722-ab35d5e79428.local:9:host::0:BmIJ:h34HttGtqyAlXnPaTZ8pzGTv:0:999:0]
+[7520:19040:0210/013729.162:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:983] Port[1915f00:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Port ready.
+[7520:19040:0210/013729.162:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:994] Discarding candidate because it doesn't match filter.
+[7520:19040:0210/013729.162:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1095] Port[1915f00:0:1:0:host:Net[any:0.0.0.x/0:Wildcard:id=0]]: Port completed gathering candidates.
+[7520:19040:0210/013729.162:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:950] Port[85600:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Gathered candidate: Cand[:378465366:1:tcp:1509949951:98735633-7acb-4a5b-b6f8-cdba85edd575.local:9:host::0:BmIJ:h34HttGtqyAlXnPaTZ8pzGTv:0:999:0]
+[7520:19040:0210/013729.162:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:983] Port[85600:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Port ready.
+[7520:19040:0210/013729.162:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:994] Discarding candidate because it doesn't match filter.
+[7520:19040:0210/013729.162:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1095] Port[85600:0:1:0:host:Net[any:0:0:0:x:x:x:x:x/0:Wildcard:id=0]]: Port completed gathering candidates.
+[7520:19040:0210/013729.162:INFO:third_party\webrtc\p2p\client\basic_port_allocator.cc:1169] All candidates gathered for 0:1:0
+[7520:19040:0210/013729.162:INFO:third_party\webrtc\p2p\base\p2p_transport_channel.cc:975] P2PTransportChannel: 0, component 1 gathering complete
+[7520:18092:0210/013729.163:INFO:third_party\webrtc\pc\sdp_offer_answer.cc:3112] Session: 2880473984217102258 Old state: have-local-offer New state: closed
+[7520:19040:0210/013729.163:INFO:third_party\webrtc\pc\peer_connection.cc:2682] Tearing down data channel transport for mid=0
+[24684:18348:0210/013729.961:INFO:CONSOLE:1] "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.162/webmssdk.js (1)
+[24684:18348:0210/013729.962:INFO:CONSOLE:1] "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.162/webmssdk.js (1)
+[24684:18348:0210/013729.977:INFO:CONSOLE:1] "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.162/webmssdk.js (1)
+[24684:18348:0210/013729.977:INFO:CONSOLE:1] "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/webmssdk/1.0.0.162/webmssdk.js (1)
+[7520:19040:0210/013730.666:INFO:third_party\webrtc\media\engine\webrtc_voice_engine.cc:521] WebRtcVoiceEngine::~WebRtcVoiceEngine
+[24684:18348:0210/013731.060:INFO:CONSOLE:1] "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.2418/webmssdk_ex.js (1)
+[24684:18348:0210/013731.061:INFO:CONSOLE:1] "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.2418/webmssdk_ex.js (1)
+[24684:18348:0210/013731.078:INFO:CONSOLE:1] "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.2418/webmssdk_ex.js (1)
+[24684:18348:0210/013731.078:INFO:CONSOLE:1] "The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy.", source: https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/ttweb_webmssdk_ex/1.0.0.2418/webmssdk_ex.js (1)
+[24684:18844:0210/013733.761:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[7520:18092:0210/013740.797:INFO:third_party\webrtc\pc\peer_connection.cc:702] Session: 1761017327299155400 is destroyed.
+[7520:18092:0210/013740.799:INFO:third_party\webrtc\pc\peer_connection.cc:702] Session: 2880473984217102258 is destroyed.
+[7520:19040:0210/013740.800:INFO:third_party\webrtc\media\engine\webrtc_voice_engine.cc:565] WebRtcVoiceEngine::Terminate
+[7520:19040:0210/013740.800:WARNING:third_party\webrtc\media\engine\webrtc_voice_engine.cc:808] Attempting to stop aecdump when no audio processing module is present

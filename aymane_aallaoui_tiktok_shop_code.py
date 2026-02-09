@@ -14,6 +14,7 @@ import json
 import random
 import logging
 import re
+import os
 from datetime import datetime
 from typing import List, Dict, Optional
 from urllib.parse import urljoin, quote
@@ -60,7 +61,14 @@ class ReviewInfo:
 class TikTokShopScraper:
     """Main scraper class for TikTok Shop reviews"""
     
-    def __init__(self, headless: bool = True, proxy: Optional[str] = None, enable_debug_dumps: bool = False):
+    def __init__(
+        self,
+        headless: bool = True,
+        proxy: Optional[str] = None,
+        enable_debug_dumps: bool = False,
+        persist_session: bool = True,
+        session_dir: str = "session"
+    ):
         self.setup_logging()
         self.markets = {
             'vietnam': 'vn',
@@ -75,6 +83,9 @@ class TikTokShopScraper:
         self.headless = headless
         self.proxy = proxy
         self.enable_debug_dumps = enable_debug_dumps
+        self.persist_session = persist_session
+        self.session_dir = session_dir
+        self.cookies_path = os.path.join(self.session_dir, "cookies.json")
         self.session = requests.Session()
         self.driver = None
         
@@ -103,6 +114,11 @@ class TikTokShopScraper:
         options.add_experimental_option("excludeSwitches", ["enable-automation"])
         options.add_experimental_option('useAutomationExtension', False)
         options.add_argument(f'--user-agent={random.choice(self.user_agents)}')
+        if self.persist_session:
+            os.makedirs(self.session_dir, exist_ok=True)
+            profile_path = os.path.abspath(os.path.join(self.session_dir, "chrome_profile"))
+            options.add_argument(f'--user-data-dir={profile_path}')
+            options.add_argument('--profile-directory=Default')
         
         # Add proxy if provided
         if self.proxy:
@@ -333,6 +349,7 @@ class TikTokShopScraper:
         self.driver = self.setup_driver(product.market)
         
         try:
+            self.load_cookies_for_domain("https://www.tiktok.com")
             self.driver.get(product.url)
             self.random_delay(3, 5)
             dump_prefix = self.build_debug_prefix(product)
@@ -394,6 +411,8 @@ class TikTokShopScraper:
                 for review in reviews:
                     deduped[review.review_id] = review
                 reviews = list(deduped.values())
+
+            self.save_cookies()
                     
         except Exception as e:
             self.logger.error(f"Error scraping reviews for {product.url}: {e}")
@@ -480,6 +499,38 @@ class TikTokShopScraper:
                     
         except Exception as e:
             self.logger.debug(f"Error during scroll/load more: {e}")
+
+    def save_cookies(self):
+        """Save browser cookies for reuse in next runs."""
+        if not self.persist_session or not self.driver:
+            return
+        try:
+            os.makedirs(self.session_dir, exist_ok=True)
+            cookies = self.driver.get_cookies()
+            with open(self.cookies_path, "w", encoding="utf-8") as f:
+                json.dump(cookies, f, ensure_ascii=False, indent=2)
+        except Exception as e:
+            self.logger.debug(f"Failed to save cookies: {e}")
+
+    def load_cookies_for_domain(self, base_url: str):
+        """Load stored cookies into the current browser session."""
+        if not self.persist_session or not self.driver or not os.path.exists(self.cookies_path):
+            return
+        try:
+            self.driver.get(base_url)
+            with open(self.cookies_path, "r", encoding="utf-8") as f:
+                cookies = json.load(f)
+            for cookie in cookies:
+                try:
+                    clean_cookie = dict(cookie)
+                    clean_cookie.pop("sameSite", None)
+                    self.driver.add_cookie(clean_cookie)
+                except Exception:
+                    continue
+            self.driver.refresh()
+            self.logger.info("Loaded persisted cookies into browser session")
+        except Exception as e:
+            self.logger.debug(f"Failed to load cookies: {e}")
             
     def extract_review_info(self, element, product: ProductInfo) -> Optional[ReviewInfo]:
         """Extract review information from element"""

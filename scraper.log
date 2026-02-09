@@ -48,3 +48,21 @@
 2026-02-10 01:02:14,994 - INFO - Found 2 potential review elements
 2026-02-10 01:02:18,161 - INFO - Saved 4 reviews to ph_product_reviews.csv
 2026-02-10 01:02:18,163 - INFO - Saved 4 reviews to ph_product_reviews.json
+2026-02-10 01:28:44,340 - INFO - Scraping reviews for: PH Product
+2026-02-10 01:28:50,202 - WARNING - No review section found. If a TikTok puzzle/check is shown, solve it in the open browser, then press Enter to retry.
+2026-02-10 01:29:33,742 - INFO - Extracted 3 reviews from embedded JSON
+2026-02-10 01:29:33,890 - INFO - Found 2 potential review elements
+2026-02-10 01:29:38,032 - INFO - Saved 4 reviews to ph_product_reviews.csv
+2026-02-10 01:29:38,033 - INFO - Saved 4 reviews to ph_product_reviews.json
+2026-02-10 01:34:29,389 - INFO - Scraping reviews for: PH Product
+2026-02-10 01:34:35,788 - WARNING - No review section found. If a TikTok puzzle/check is shown, solve it in the open browser, then press Enter to retry.
+2026-02-10 01:36:47,285 - INFO - Extracted 3 reviews from embedded JSON
+2026-02-10 01:36:47,740 - INFO - Found 2 potential review elements
+2026-02-10 01:36:51,819 - INFO - Saved 4 reviews to ph_product_reviews.csv
+2026-02-10 01:36:51,821 - INFO - Saved 4 reviews to ph_product_reviews.json
+2026-02-10 01:37:15,252 - INFO - Scraping reviews for: PH Product
+2026-02-10 01:37:26,299 - INFO - Loaded persisted cookies into browser session
+2026-02-10 01:37:45,880 - INFO - Extracted 3 reviews from embedded JSON
+2026-02-10 01:37:45,984 - INFO - Found 2 potential review elements
+2026-02-10 01:37:49,136 - INFO - Saved 4 reviews to ph_product_reviews.csv
+2026-02-10 01:37:49,137 - INFO - Saved 4 reviews to ph_product_reviews.json
