@@ -13,6 +13,7 @@ import csv
 import json
 import random
 import logging
+import re
 from datetime import datetime
 from typing import List, Dict, Optional
 from urllib.parse import urljoin, quote
@@ -59,11 +60,12 @@ class ReviewInfo:
 class TikTokShopScraper:
     """Main scraper class for TikTok Shop reviews"""
     
-    def __init__(self, headless: bool = True, proxy: Optional[str] = None):
+    def __init__(self, headless: bool = True, proxy: Optional[str] = None, enable_debug_dumps: bool = False):
         self.setup_logging()
         self.markets = {
             'vietnam': 'vn',
-            'saudi_arabia': 'sa'
+            'saudi_arabia': 'sa',
+            'philippines': 'ph'
         }
         self.user_agents = [
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
@@ -72,6 +74,7 @@ class TikTokShopScraper:
         ]
         self.headless = headless
         self.proxy = proxy
+        self.enable_debug_dumps = enable_debug_dumps
         self.session = requests.Session()
         self.driver = None
         
@@ -110,6 +113,8 @@ class TikTokShopScraper:
             options.add_argument('--lang=vi-VN')
         elif market == 'sa':
             options.add_argument('--lang=ar-SA')
+        elif market in ('ph', 'philippines'):
+            options.add_argument('--lang=en-PH')
             
         try:
             driver = webdriver.Chrome(options=options)
@@ -330,37 +335,65 @@ class TikTokShopScraper:
         try:
             self.driver.get(product.url)
             self.random_delay(3, 5)
+            dump_prefix = self.build_debug_prefix(product)
+            if self.enable_debug_dumps:
+                self.save_debug_page_source(f"{dump_prefix}_initial.html")
+                self.save_selector_probe_report(f"{dump_prefix}_initial_selector_probe.json")
             
-            # Try to find reviews section
-            review_selectors = [
-                '.reviews-section',
-                '.review-list',
-                '[data-testid*="review"]',
-                '.comment-section'
-            ]
-            
-            review_section = None
-            for selector in review_selectors:
-                try:
-                    review_section = self.driver.find_element(By.CSS_SELECTOR, selector)
-                    break
-                except:
-                    continue
-                    
+            review_section = self.find_review_section()
             if not review_section:
-                self.logger.warning(f"No review section found for {product.url}")
+                self.logger.warning(
+                    "No review section found. If a TikTok puzzle/check is shown, solve it in the open browser, then press Enter to retry."
+                )
+                input("After solving the puzzle and loading the product page, press Enter to continue...")
+                self.random_delay(1, 2)
+                if self.enable_debug_dumps:
+                    self.save_debug_page_source(f"{dump_prefix}_after_challenge.html")
+                    self.save_selector_probe_report(f"{dump_prefix}_after_challenge_selector_probe.json")
+                review_section = self.find_review_section()
+                
+            if not review_section:
+                self.logger.warning(f"No review section found for {product.url} after retry")
                 return []
                 
             # Scroll to load more reviews
             self.scroll_to_load_reviews()
+
+            # Prefer embedded JSON extraction when available (more stable than DOM selectors).
+            json_reviews = self.extract_reviews_from_embedded_json(product)
+            if json_reviews:
+                self.logger.info(f"Extracted {len(json_reviews)} reviews from embedded JSON")
+                reviews.extend(json_reviews)
             
-            # Extract individual reviews
-            review_elements = self.driver.find_elements(By.CSS_SELECTOR, '.review-item, .comment-item, .feedback-item')
+            # Extract individual reviews using broader selector coverage
+            review_elements = self.find_review_elements()
+            self.logger.info(f"Found {len(review_elements)} potential review elements")
             
             for element in review_elements:
                 review = self.extract_review_info(element, product)
                 if review:
                     reviews.append(review)
+                    continue
+
+                # Fallback: use element text directly if structured selectors fail
+                fallback_review = self.extract_review_info_fallback(element, product)
+                if fallback_review:
+                    reviews.append(fallback_review)
+
+            if not reviews:
+                if self.enable_debug_dumps:
+                    self.save_debug_page_source("debug_product_page.html")
+                    self.logger.warning(
+                        "No reviews extracted. Saved page source to debug_product_page.html for selector tuning."
+                    )
+                else:
+                    self.logger.warning("No reviews extracted.")
+            else:
+                # Deduplicate when both JSON and DOM pipelines capture overlapping reviews.
+                deduped = {}
+                for review in reviews:
+                    deduped[review.review_id] = review
+                reviews = list(deduped.values())
                     
         except Exception as e:
             self.logger.error(f"Error scraping reviews for {product.url}: {e}")
@@ -370,6 +403,56 @@ class TikTokShopScraper:
                 self.driver.quit()
                 
         return reviews
+
+    def find_review_section(self):
+        """Find a review section using multiple selectors."""
+        review_selectors = [
+            '.reviews-section',
+            '.review-list',
+            '[data-testid*="review"]',
+            '[class*="review"]',
+            '[class*="comment"]',
+            '#reviews',
+            '.comment-section'
+        ]
+
+        for selector in review_selectors:
+            try:
+                return self.driver.find_element(By.CSS_SELECTOR, selector)
+            except:
+                continue
+        return None
+
+    def find_review_elements(self):
+        """Find candidate review elements using multiple selector strategies."""
+        element_selectors = [
+            '.review-item',
+            '.comment-item',
+            '.feedback-item',
+            '[data-testid*="review"]',
+            '[data-e2e*="review"]',
+            '[data-e2e*="comment"]',
+            '[class*="Review"]',
+            '[class*="review"]',
+            '[class*="Comment"]',
+            '[class*="comment"]'
+        ]
+
+        found = []
+        seen = set()
+        for selector in element_selectors:
+            try:
+                elements = self.driver.find_elements(By.CSS_SELECTOR, selector)
+            except:
+                continue
+            for element in elements:
+                element_id = element.id
+                if element_id in seen:
+                    continue
+                seen.add(element_id)
+                found.append(element)
+
+        return found
         
     def scroll_to_load_reviews(self):
         """Scroll page to trigger loading of more reviews"""
@@ -476,6 +559,155 @@ class TikTokShopScraper:
         except Exception as e:
             self.logger.debug(f"Failed to extract review info: {e}")
             return None
+
+    def extract_review_info_fallback(self, element, product: ProductInfo) -> Optional[ReviewInfo]:
+        """Fallback extraction when structured selectors fail."""
+        try:
+            text = element.text.strip()
+            if len(text) < 15:
+                return None
+
+            lines = [line.strip() for line in text.splitlines() if line.strip()]
+            review_text = max(lines, key=len) if lines else text
+            if len(review_text) < 10:
+                return None
+
+            reviewer_name = lines[0] if lines else "Anonymous"
+            review_id = f"{hash(reviewer_name + review_text) % 1000000}"
+
+            return ReviewInfo(
+                product_url=product.url,
+                product_name=product.name,
+                reviewer_name=reviewer_name,
+                rating="N/A",
+                review_text=review_text,
+                review_date="N/A",
+                verified_purchase="N/A",
+                helpful_votes="0",
+                review_id=review_id,
+                country_market=product.market,
+                scrape_timestamp=datetime.now().isoformat()
+            )
+        except Exception as e:
+            self.logger.debug(f"Fallback review extraction failed: {e}")
+            return None
+
+    def save_debug_page_source(self, filename: str):
+        """Save current page source for debugging selectors."""
+        try:
+            with open(filename, 'w', encoding='utf-8') as f:
+                f.write(self.driver.page_source)
+        except Exception as e:
+            self.logger.debug(f"Failed to save debug page source: {e}")
+
+    def save_selector_probe_report(self, filename: str):
+        """Save candidate selector hit counts to help tune scraping logic."""
+        selectors = [
+            '.reviews-section',
+            '.review-list',
+            '[data-testid*="review"]',
+            '[data-e2e*="review"]',
+            '[data-e2e*="comment"]',
+            '[class*="Review"]',
+            '[class*="review"]',
+            '[class*="Comment"]',
+            '[class*="comment"]',
+            '.review-item',
+            '.comment-item',
+            '.feedback-item',
+            '#reviews'
+        ]
+        report = {}
+        try:
+            for selector in selectors:
+                try:
+                    count = len(self.driver.find_elements(By.CSS_SELECTOR, selector))
+                except:
+                    count = 0
+                report[selector] = count
+
+            with open(filename, 'w', encoding='utf-8') as f:
+                json.dump(report, f, ensure_ascii=False, indent=2)
+            self.logger.info(f"Saved selector probe report to {filename}")
+        except Exception as e:
+            self.logger.debug(f"Failed to save selector probe report: {e}")
+
+    def build_debug_prefix(self, product: ProductInfo) -> str:
+        """Create a safe filename prefix for debug artifacts."""
+        product_id_match = re.search(r'/product/(\d+)', product.url)
+        product_id = product_id_match.group(1) if product_id_match else "unknown"
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        return f"debug_{product.market}_{product_id}_{timestamp}"
+
+    def extract_reviews_from_embedded_json(self, product: ProductInfo) -> List[ReviewInfo]:
+        """Extract review rows from the __MODERN_ROUTER_DATA__ JSON script."""
+        try:
+            script_content = self.driver.execute_script(
+                "const el = document.getElementById('__MODERN_ROUTER_DATA__');"
+                "return el ? el.textContent : null;"
+            )
+            if not script_content:
+                return []
+
+            payload = json.loads(script_content)
+            review_info = self.find_review_info_node(payload)
+            if not review_info:
+                return []
+
+            product_reviews = review_info.get("product_reviews", [])
+            extracted = []
+            for item in product_reviews:
+                review_text = (item.get("review_text") or "").strip()
+                if not review_text:
+                    continue
+
+                review_time = item.get("review_time")
+                review_date = "N/A"
+                if review_time:
+                    try:
+                        review_date = datetime.fromtimestamp(int(review_time) / 1000).isoformat()
+                    except Exception:
+                        review_date = str(review_time)
+
+                review_id = str(item.get("review_id") or f"{hash(review_text) % 1000000}")
+                reviewer_name = item.get("reviewer_name") or "Anonymous"
+                rating = str(item.get("review_rating", "N/A"))
+
+                extracted.append(
+                    ReviewInfo(
+                        product_url=product.url,
+                        product_name=item.get("product_name") or product.name,
+                        reviewer_name=reviewer_name,
+                        rating=rating,
+                        review_text=review_text,
+                        review_date=review_date,
+                        verified_purchase="Yes" if item.get("is_verified_purchase") else "N/A",
+                        helpful_votes="0",
+                        review_id=review_id,
+                        country_market=item.get("review_country") or product.market,
+                        scrape_timestamp=datetime.now().isoformat()
+                    )
+                )
+            return extracted
+        except Exception as e:
+            self.logger.debug(f"Embedded JSON review extraction failed: {e}")
+            return []
+
+    def find_review_info_node(self, node):
+        """Recursively locate a dict containing review_info."""
+        if isinstance(node, dict):
+            if "review_info" in node and isinstance(node["review_info"], dict):
+                return node["review_info"]
+            for value in node.values():
+                found = self.find_review_info_node(value)
+                if found:
+                    return found
+        elif isinstance(node, list):
+            for item in node:
+                found = self.find_review_info_node(item)
+                if found:
+                    return found
+        return None
             
     def save_to_csv(self, reviews: List[ReviewInfo], filename: str):
         """Save reviews to CSV file"""
@@ -497,6 +729,15 @@ class TikTokShopScraper:
             
         except Exception as e:
             self.logger.error(f"Error saving to CSV: {e}")
+
+    def save_to_json(self, reviews: List[ReviewInfo], filename: str):
+        """Save reviews to JSON file"""
+        try:
+            with open(filename, 'w', encoding='utf-8') as jsonfile:
+                json.dump([asdict(review) for review in reviews], jsonfile, ensure_ascii=False, indent=2)
+            self.logger.info(f"Saved {len(reviews)} reviews to {filename}")
+        except Exception as e:
+            self.logger.error(f"Error saving to JSON: {e}")
             
     def run_complete_scraping(self) -> List[ReviewInfo]:
         """Run complete scraping process for both markets"""
@@ -535,10 +776,12 @@ def main():
         
         # Save results
         if reviews:
-            filename = "aymane_aallaoui_tiktok_shop_reviews_sample.csv"
-            scraper.save_to_csv(reviews, filename)
+            csv_filename = "aymane_aallaoui_tiktok_shop_reviews_sample.csv"
+            json_filename = "aymane_aallaoui_tiktok_shop_reviews_sample.json"
+            scraper.save_to_csv(reviews, csv_filename)
+            scraper.save_to_json(reviews, json_filename)
             print(f"\nScraping completed! Found {len(reviews)} reviews total.")
-            print(f"Results saved to {filename}")
+            print(f"Results saved to {csv_filename} and {json_filename}")
         else:
             print("No reviews found. This might be due to:")
             print("- TikTok Shop not available in target markets")

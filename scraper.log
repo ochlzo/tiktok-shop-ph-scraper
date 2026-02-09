@@ -1,0 +1,50 @@
+2026-02-10 00:37:29,978 - INFO - Scraping reviews for: PH Product
+2026-02-10 00:37:43,263 - WARNING - No review section found for https://www.tiktok.com/view/product/1732470931607225390
+2026-02-10 00:37:45,510 - INFO - Saved 0 reviews to ph_product_reviews.csv
+2026-02-10 00:37:52,625 - INFO - Scraping reviews for: PH Product
+2026-02-10 00:37:59,132 - WARNING - No review section found for https://www.tiktok.com/view/product/1732470931607225390
+2026-02-10 00:38:01,787 - INFO - Saved 0 reviews to ph_product_reviews.csv
+2026-02-10 00:38:08,450 - INFO - Scraping reviews for: PH Product
+2026-02-10 00:38:14,416 - WARNING - No review section found for https://www.tiktok.com/view/product/1732470931607225390
+2026-02-10 00:38:16,658 - INFO - Saved 0 reviews to ph_product_reviews.csv
+2026-02-10 00:38:24,388 - INFO - Scraping reviews for: PH Product
+2026-02-10 00:38:30,994 - WARNING - No review section found for https://www.tiktok.com/view/product/1732470931607225390
+2026-02-10 00:38:33,238 - INFO - Saved 0 reviews to ph_product_reviews.csv
+2026-02-10 00:38:39,162 - INFO - Scraping reviews for: PH Product
+2026-02-10 00:38:44,706 - WARNING - No review section found for https://www.tiktok.com/view/product/1732470931607225390
+2026-02-10 00:38:46,930 - INFO - Saved 0 reviews to ph_product_reviews.csv
+2026-02-10 00:39:10,922 - INFO - Scraping reviews for: PH Product
+2026-02-10 00:39:16,439 - WARNING - No review section found for https://www.tiktok.com/view/product/1732470931607225390
+2026-02-10 00:39:18,674 - INFO - Saved 0 reviews to ph_product_reviews.csv
+2026-02-10 00:39:30,095 - INFO - Scraping reviews for: PH Product
+2026-02-10 00:39:35,402 - WARNING - No review section found for https://www.tiktok.com/view/product/1732470931607225390
+2026-02-10 00:39:37,636 - INFO - Saved 0 reviews to ph_product_reviews.csv
+2026-02-10 00:41:39,708 - INFO - Scraping reviews for: PH Product
+2026-02-10 00:41:45,473 - WARNING - No review section found. If a TikTok puzzle/check is shown, solve it in the open browser, then press Enter to retry.
+2026-02-10 00:43:40,355 - INFO - Saved 0 reviews to ph_product_reviews.csv
+2026-02-10 00:43:56,356 - INFO - Scraping reviews for: PH Product
+2026-02-10 00:44:02,883 - WARNING - No review section found. If a TikTok puzzle/check is shown, solve it in the open browser, then press Enter to retry.
+2026-02-10 00:44:45,425 - INFO - Saved 0 reviews to ph_product_reviews.csv
+2026-02-10 00:46:56,483 - INFO - Scraping reviews for: PH Product
+2026-02-10 00:47:02,838 - WARNING - No review section found. If a TikTok puzzle/check is shown, solve it in the open browser, then press Enter to retry.
+2026-02-10 00:47:47,374 - INFO - Found 2 potential review elements
+2026-02-10 00:47:51,467 - INFO - Saved 2 reviews to ph_product_reviews.csv
+2026-02-10 00:51:41,446 - INFO - Scraping reviews for: PH Product
+2026-02-10 00:51:48,167 - INFO - Saved selector probe report to debug_philippines_1732470931607225390_20260210_005147_initial_selector_probe.json
+2026-02-10 00:51:48,395 - WARNING - No review section found. If a TikTok puzzle/check is shown, solve it in the open browser, then press Enter to retry.
+2026-02-10 00:52:00,600 - INFO - Saved selector probe report to debug_philippines_1732470931607225390_20260210_005147_after_challenge_selector_probe.json
+2026-02-10 00:52:14,091 - INFO - Found 2 potential review elements
+2026-02-10 00:52:18,313 - INFO - Saved 2 reviews to ph_product_reviews.csv
+2026-02-10 00:55:06,084 - INFO - Scraping reviews for: PH Product
+2026-02-10 00:55:11,891 - INFO - Saved selector probe report to debug_philippines_1732470931607225390_20260210_005511_initial_selector_probe.json
+2026-02-10 00:55:11,996 - WARNING - No review section found. If a TikTok puzzle/check is shown, solve it in the open browser, then press Enter to retry.
+2026-02-10 00:55:27,737 - INFO - Saved selector probe report to debug_philippines_1732470931607225390_20260210_005511_after_challenge_selector_probe.json
+2026-02-10 00:55:39,254 - INFO - Extracted 3 reviews from embedded JSON
+2026-02-10 00:55:39,321 - INFO - Found 2 potential review elements
+2026-02-10 00:55:43,374 - INFO - Saved 4 reviews to ph_product_reviews.csv
+2026-02-10 01:01:49,176 - INFO - Scraping reviews for: PH Product
+2026-02-10 01:01:54,728 - WARNING - No review section found. If a TikTok puzzle/check is shown, solve it in the open browser, then press Enter to retry.
+2026-02-10 01:02:14,886 - INFO - Extracted 3 reviews from embedded JSON
+2026-02-10 01:02:14,994 - INFO - Found 2 potential review elements
+2026-02-10 01:02:18,161 - INFO - Saved 4 reviews to ph_product_reviews.csv
+2026-02-10 01:02:18,163 - INFO - Saved 4 reviews to ph_product_reviews.json
