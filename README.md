@@ -32,7 +32,7 @@ This project is a technical assessment solution for scraping customer reviews fr
 
 ```
 tiktok-shop-reviews-scraper/
-├── aymane_aallaoui_tiktok_shop_code.py   # Main scraper implementation
+├── tiktok-shop-scraper.py   # Main scraper implementation
 ├── config.py                              # Configuration settings
 ├── utils.py                               # Utility functions
 ├── requirements.txt                       # Python dependencies
@@ -62,7 +62,7 @@ cd tiktok-shop-reviews-scraper
 pip install -r requirements.txt
 
 # Run the scraper
-python aymane_aallaoui_tiktok_shop_code.py
+python tiktok-shop-scraper.py
 ```
 
 ### Advanced Setup with Virtual Environment
@@ -89,7 +89,7 @@ python setup.py
 ### Basic Usage
 
 ```python
-from aymane_aallaoui_tiktok_shop_code import TikTokShopScraper
+from tiktok_shop_scraper import TikTokShopScraper
 
 # Initialize scraper
 scraper = TikTokShopScraper(headless=True)
@@ -105,7 +105,7 @@ scraper.save_to_csv(reviews, "reviews_output.csv")
 
 ```python
 from config import get_config
-from aymane_aallaoui_tiktok_shop_code import TikTokShopScraper
+from tiktok_shop_scraper import TikTokShopScraper
 
 # Load configuration
 config = get_config()
@@ -122,6 +122,19 @@ for product in products:
     reviews = scraper.scrape_product_reviews(product)
     print(f"Found {len(reviews)} reviews for {product.name}")
 ```
+
+### Scrape Reviews From a Product URL
+
+Use this command to scrape one product URL directly and save both CSV and JSON files:
+
+```bash
+python -c "from tiktok_shop_scraper import TikTokShopScraper, ProductInfo; url='https://www.tiktok.com/view/product/1732470931607225390'; p=ProductInfo(url=url,name='PH Product',price='N/A',rating='N/A',review_count='N/A',brand='N/A',market='philippines'); s=TikTokShopScraper(headless=False); r=s.scrape_product_reviews(p); s.save_to_csv(r,'ph_product_reviews.csv'); s.save_to_json(r,'ph_product_reviews.json'); print(f'Scraped {len(r)} reviews')"
+```
+
+Notes:
+- Replace `url` with your target TikTok product URL.
+- Set `market` to match the product market (`philippines`, `vietnam`, or `saudi_arabia`).
+- Keep `headless=False` if you may need to solve a challenge manually.
 
 ## 📊 Output Format
 

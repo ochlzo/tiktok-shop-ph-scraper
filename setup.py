@@ -136,7 +136,7 @@ def run_basic_test():
     
     try:
         # Test imports
-        from aymane_aallaoui_tiktok_shop_code import TikTokShopScraper
+        from tiktok_shop_scraper import TikTokShopScraper
         from config import get_config
         from utils import clean_text, normalize_rating
         
@@ -174,13 +174,13 @@ def print_usage_instructions():
     print("="*60)
     print("\n📋 Usage Instructions:")
     print("\n1. Basic usage:")
-    print("   python aymane_aallaoui_tiktok_shop_code.py")
+    print("   python tiktok-shop-scraper.py")
     print("\n2. Development mode (visible browser):")
-    print("   python -c \"from aymane_aallaoui_tiktok_shop_code import TikTokShopScraper; TikTokShopScraper(headless=False).run_complete_scraping()\"")
+    print("   python -c \"from tiktok_shop_scraper import TikTokShopScraper; TikTokShopScraper(headless=False).run_complete_scraping()\"")
     print("\n3. Custom configuration:")
     print("   Edit config.py or .env file")
     print("\n4. Test specific market:")
-    print("   python -c \"from aymane_aallaoui_tiktok_shop_code import TikTokShopScraper; scraper = TikTokShopScraper(); print(scraper.search_lancome_products('vietnam'))\"")
+    print("   python -c \"from tiktok_shop_scraper import TikTokShopScraper; scraper = TikTokShopScraper(); print(scraper.search_lancome_products('vietnam'))\"")
     print("\n📁 Output files will be saved as:")
     print("   - aymane_aallaoui_tiktok_shop_reviews_sample.csv")
     print("   - scraper.log")

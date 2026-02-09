@@ -8,7 +8,7 @@ import time
 from unittest.mock import Mock, patch, MagicMock
 from selenium.webdriver.common.by import By
 
-from aymane_aallaoui_tiktok_shop_code import TikTokShopScraper, ProductInfo, ReviewInfo
+from tiktok_shop_scraper import TikTokShopScraper, ProductInfo, ReviewInfo
 from config import get_config
 from utils import clean_text, normalize_rating, validate_review_data, deduplicate_reviews
 
@@ -163,7 +163,7 @@ class TestScraperCore(unittest.TestCase):
         self.assertGreaterEqual(delay, 0.1)
         self.assertLessEqual(delay, 0.3)  # Allow some tolerance
     
-    @patch('aymane_aallaoui_tiktok_shop_code.webdriver.Chrome')
+    @patch('tiktok_shop_scraper._MODULE.webdriver.Chrome')
     def test_setup_driver(self, mock_chrome):
         """Test driver setup"""
         mock_driver = Mock()
