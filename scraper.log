@@ -48,3 +48,23 @@
 2026-02-10 01:02:14,994 - INFO - Found 2 potential review elements
 2026-02-10 01:02:18,161 - INFO - Saved 4 reviews to ph_product_reviews.csv
 2026-02-10 01:02:18,163 - INFO - Saved 4 reviews to ph_product_reviews.json
+2026-02-10 01:20:09,850 - INFO - Scraping reviews for: PH Product
+2026-02-10 01:20:15,567 - WARNING - Challenge detected. Waiting for it to clear...
+2026-02-10 01:23:15,747 - WARNING - Challenge still active after wait timeout.
+2026-02-10 01:23:15,829 - WARNING - Challenge detected. Waiting for it to clear...
+2026-02-10 01:23:38,909 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/2923805195ed908a5c699bac8baa9646
+2026-02-10 01:24:22,111 - INFO - Scraping reviews for: PH Product
+2026-02-10 01:24:28,018 - WARNING - Challenge detected. Waiting for it to clear...
+2026-02-10 01:24:28,025 - INFO - Still waiting for challenge to clear... 90s remaining
+2026-02-10 01:25:18,054 - INFO - Still waiting for challenge to clear... 40s remaining
+2026-02-10 01:25:28,420 - INFO - Still waiting for challenge to clear... 30s remaining
+2026-02-10 01:25:38,836 - INFO - Still waiting for challenge to clear... 20s remaining
+2026-02-10 01:25:59,526 - WARNING - Challenge still active after wait timeout.
+2026-02-10 01:26:04,703 - WARNING - Challenge detected. Waiting for it to clear...
+2026-02-10 01:26:04,796 - INFO - Still waiting for challenge to clear... 45s remaining
+2026-02-10 01:26:15,169 - INFO - Still waiting for challenge to clear... 35s remaining
+2026-02-10 01:26:25,538 - INFO - Still waiting for challenge to clear... 25s remaining
+2026-02-10 01:26:50,360 - WARNING - Challenge still active after wait timeout.
+2026-02-10 01:27:03,167 - WARNING - Challenge detected. Waiting for it to clear...
+2026-02-10 01:27:03,241 - INFO - Still waiting for challenge to clear... 45s remaining
+2026-02-10 01:27:06,833 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/5dfe9f4568b0f16113688d5c9081d501

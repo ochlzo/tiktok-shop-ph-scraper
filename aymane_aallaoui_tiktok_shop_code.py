@@ -128,6 +128,52 @@ class TikTokShopScraper:
         """Add random delay to avoid being detected as bot"""
         delay = random.uniform(min_seconds, max_seconds)
         time.sleep(delay)
+
+    def is_challenge_page(self) -> bool:
+        """Best-effort detection for TikTok challenge/captcha pages."""
+        try:
+            current_url = (self.driver.current_url or "").lower()
+            if any(token in current_url for token in ["captcha", "verify", "challenge", "puzzle"]):
+                return True
+            body_text = (self.driver.page_source or "").lower()
+            challenge_markers = [
+                "puzzle",
+                "verify",
+                "captcha",
+                "security check",
+                "complete the challenge",
+                "slide to",
+                "are you human"
+            ]
+            return any(marker in body_text for marker in challenge_markers)
+        except Exception:
+            return False
+
+    def wait_for_challenge_clear(self, max_wait_seconds: int = 90) -> bool:
+        """
+        Auto-pause while challenge is present and resume automatically when cleared.
+        Returns True if challenge is cleared (or absent), False if still blocked after timeout.
+        """
+        start = time.time()
+        if not self.is_challenge_page():
+            return True
+
+        self.logger.warning("Challenge detected. Waiting for it to clear...")
+        last_log_second = -1
+        while time.time() - start < max_wait_seconds:
+            if not self.is_challenge_page():
+                self.logger.info("Challenge cleared. Resuming scraping.")
+                return True
+            elapsed = int(time.time() - start)
+            # Log every 10 seconds so the run doesn't appear frozen.
+            if elapsed % 10 == 0 and elapsed != last_log_second:
+                remaining = max_wait_seconds - elapsed
+                self.logger.info(f"Still waiting for challenge to clear... {remaining}s remaining")
+                last_log_second = elapsed
+            time.sleep(2)
+
+        self.logger.warning("Challenge still active after wait timeout.")
+        return False
         
     def get_tiktok_shop_url(self, market: str) -> str:
         """Get TikTok Shop URL for specific market"""
@@ -335,6 +381,9 @@ class TikTokShopScraper:
         try:
             self.driver.get(product.url)
             self.random_delay(3, 5)
+            if not self.wait_for_challenge_clear():
+                input("If challenge is visible, solve it in the browser, then press Enter to continue...")
+                self.wait_for_challenge_clear(max_wait_seconds=45)
             dump_prefix = self.build_debug_prefix(product)
             if self.enable_debug_dumps:
                 self.save_debug_page_source(f"{dump_prefix}_initial.html")
@@ -347,6 +396,7 @@ class TikTokShopScraper:
                 )
                 input("After solving the puzzle and loading the product page, press Enter to continue...")
                 self.random_delay(1, 2)
+                self.wait_for_challenge_clear(max_wait_seconds=45)
                 if self.enable_debug_dumps:
                     self.save_debug_page_source(f"{dump_prefix}_after_challenge.html")
                     self.save_selector_probe_report(f"{dump_prefix}_after_challenge_selector_probe.json")
@@ -358,6 +408,7 @@ class TikTokShopScraper:
                 
             # Scroll to load more reviews
             self.scroll_to_load_reviews()
+            self.wait_for_challenge_clear(max_wait_seconds=45)
 
             # Prefer embedded JSON extraction when available (more stable than DOM selectors).
             json_reviews = self.extract_reviews_from_embedded_json(product)
@@ -741,7 +792,10 @@ class TikTokShopScraper:
             
     def run_complete_scraping(self) -> List[ReviewInfo]:
         """Run complete scraping process for both markets"""
-        all_reviews = []
+        checkpoint_path = "scraping_checkpoint.json"
+        checkpoint = self.load_scraping_checkpoint(checkpoint_path)
+        all_reviews = checkpoint["reviews"]
+        processed_product_urls = set(checkpoint["processed_product_urls"])
         
         for market in ['vietnam', 'saudi_arabia']:
             try:
@@ -753,8 +807,30 @@ class TikTokShopScraper:
                 
                 # Step 2: Scrape reviews for each product
                 for product in products:
-                    reviews = self.scrape_product_reviews(product)
+                    if product.url in processed_product_urls:
+                        self.logger.info(f"Skipping already processed product: {product.url}")
+                        continue
+
+                    reviews = []
+                    max_retries = 3
+                    for attempt in range(1, max_retries + 1):
+                        try:
+                            reviews = self.scrape_product_reviews(product)
+                            break
+                        except Exception as e:
+                            self.logger.warning(
+                                f"Attempt {attempt}/{max_retries} failed for {product.url}: {e}"
+                            )
+                            if attempt < max_retries:
+                                self.random_delay(3, 6)
+
                     all_reviews.extend(reviews)
+                    processed_product_urls.add(product.url)
+                    self.save_scraping_checkpoint(
+                        checkpoint_path=checkpoint_path,
+                        processed_product_urls=processed_product_urls,
+                        reviews=all_reviews
+                    )
                     self.logger.info(f"Collected {len(reviews)} reviews for {product.name}")
                     
                     # Add delay between products
@@ -763,7 +839,44 @@ class TikTokShopScraper:
             except Exception as e:
                 self.logger.error(f"Error scraping {market}: {e}")
                 
+        self.clear_scraping_checkpoint(checkpoint_path)
         return all_reviews
+
+    def save_scraping_checkpoint(self, checkpoint_path: str, processed_product_urls, reviews: List[ReviewInfo]):
+        """Persist progress so interrupted runs can resume."""
+        try:
+            payload = {
+                "processed_product_urls": list(processed_product_urls),
+                "reviews": [asdict(review) for review in reviews],
+                "updated_at": datetime.now().isoformat()
+            }
+            with open(checkpoint_path, "w", encoding="utf-8") as f:
+                json.dump(payload, f, ensure_ascii=False, indent=2)
+        except Exception as e:
+            self.logger.debug(f"Failed to save checkpoint: {e}")
+
+    def load_scraping_checkpoint(self, checkpoint_path: str):
+        """Load checkpoint if present."""
+        try:
+            with open(checkpoint_path, "r", encoding="utf-8") as f:
+                payload = json.load(f)
+            reviews = [ReviewInfo(**item) for item in payload.get("reviews", [])]
+            processed = payload.get("processed_product_urls", [])
+            self.logger.info(
+                f"Loaded checkpoint with {len(processed)} processed products and {len(reviews)} reviews"
+            )
+            return {"processed_product_urls": processed, "reviews": reviews}
+        except Exception:
+            return {"processed_product_urls": [], "reviews": []}
+
+    def clear_scraping_checkpoint(self, checkpoint_path: str):
+        """Remove checkpoint after successful completion."""
+        try:
+            import os
+            if os.path.exists(checkpoint_path):
+                os.remove(checkpoint_path)
+        except Exception as e:
+            self.logger.debug(f"Failed to clear checkpoint: {e}")
 
 
 def main():
